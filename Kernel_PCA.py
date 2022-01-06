@@ -2,7 +2,7 @@ import numpy as np
 import os
 from sklearn.decomposition import KernelPCA ### This does not work...
 from sklearn.decomposition import PCA
-from sklearn.decomposition import FastICA
+
 def clean_data(file_name):
     data_trial_1 = []
     files = os.listdir(file_name)
