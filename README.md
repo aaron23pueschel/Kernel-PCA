@@ -1,1 +1,4 @@
-# Kernel-PCA
+# Kernel Principal Component Analysis
+## (Linear and nonlinear unsupervised learning technique)
+
+### Principle component analysis is often hailed as one of the most powerful tools used in denoising applications. One such application is in the denoising of somatosensory evoked potentials (SSEP) signals-- a class ofbsignals typically recorded is the posterior tibial nerve in response to a physical stimulus (usually a shock on the ankle). In classical denoising applications of SSEP signals, researchers are often forced to improve sampling rate and trials in order to get a higher signal to noise ratio. Principle component analysis allows researchers to eliminate excessive sampling of the SSEP signal. In this project, I implement a generalizataion of principle component ananlysis from linear (euclidiean space) to nonlinear kernel space and test its efficacy using clinical fi;ndings . I was able to determine that KPCA, while more powerful than PCA in denoising, its benefits of margianally better SNR do not seem to outweigh the drawbacks of low computational efficiency
